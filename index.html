@@ -1,0 +1,29 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/2decf6ce72.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Find your film</h1>
+            <a href="watchlist.html">My Watchlist</a>
+        </header>
+        <div class="search-bar page-padding">
+            <input type="search" id="movie-search" placeholder="Blade Runner" name="movie">
+            <button id="search-btn">Search</button>
+        </div>
+        <main>
+            <div class="start-state">
+                <img src="images/Icon.png">
+                <h2>Start exploring</h2>
+            </div>
+            
+            <div class="page-padding" id="movies-container"></div>
+            <div id="message-div"></div>
+        </main>
+        <script src="index.js" type="module"></script>
+    </body>
+</html>
