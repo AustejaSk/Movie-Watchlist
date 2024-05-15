@@ -8,8 +8,8 @@ export const moviesContainer = document.getElementById("movies-container")
 
 // Importing the Realtime Database and creating a watchlist folder that will save movies // 
 
-import { initializeApp } from "firebase/app"
-import { getDatabase, ref, push, onValue, set } from "firebase/database"
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js"
+import { getDatabase, ref, push, onValue, set } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-database.js"
 
 const appSettings = {
   databaseURL: "https://movie-watchlist-ca6c1-default-rtdb.europe-west1.firebasedatabase.app/",
