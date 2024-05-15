@@ -1,4 +1,4 @@
-import { getDatabase, ref, onValue, remove, set } from "firebase/database"
+import { getDatabase, ref, onValue, remove, set } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-database.js"
 import { apiKey, app, makeApiRequest, moviesContainer, startStateEl, createMovieHtml } from './index.js'
 
 const database = getDatabase(app)
